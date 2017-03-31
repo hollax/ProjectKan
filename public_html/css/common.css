@@ -2,9 +2,27 @@
     Created on : Mar 29, 2017, 10:05:24 AM
 
 */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .form-control{
+    
     padding:6px 12px;
-    color: 555;
+    color: #555;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -20,7 +38,7 @@
 }
 
 .btn-danger{
-  color: #fff;
+    color: #fff;
     background-color: #d9534f;
     border-color: #d43f3a;
 }
@@ -30,3 +48,9 @@
 .float-l{float: left;}
 .float-r{float: right;}
 .clr{clear: both;}
+
+.text-xs{font-size: 0.5em}
+.text-sm{font-size: 1em}
+.text-md{font-size: 1.5em}
+.text-lg{font-size: 2em}
+.text-xl{font-size: 3em}
