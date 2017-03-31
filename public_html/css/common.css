@@ -25,9 +25,8 @@
     border-color: #d43f3a;
 }
 
-.pull-left{
-  text-align: left;
-}
-.pull-right{
-   text-align: right;
-}
+.pull-left{text-align: left;}
+.pull-right{text-align: right;}
+.float-l{float: left;}
+.float-r{float: right;}
+.clr{clear: both;}
