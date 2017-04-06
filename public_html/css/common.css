@@ -55,8 +55,7 @@
 .float-r{float: right;}
 
 .clr{clear: both;}
-
-
+.text-center{ text-align: center;}
 
 h1, h2, h3, h4, h5, h6, P, blockquote, pre, a, abbr, acronym, address, big, cite, code, dfn, del, em, imz, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, thead, tfoot, tr, th, td, article, aside, canvas, detail, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -148,8 +147,31 @@ p {
 */
 .circle{border-radius: 50%}
 
-.divider{ padding: 5px; display: inline-block; border-left: 2px solid #ccc}
+span.divider{ 
+    display:inline-block; 
+    height: 40%;
+    vertical-align: middle;
+    border-left: 2px solid #ccc
 
+}
+
+
+/*
+    @list
+*/
+
+.list-unstyled { }
+.list-unstyled li{ list-style: none}
+
+.nav li{  
+    display: inline-block;  
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+}
+nav li.divider:after{
+    content: "|";
+}
 /*
 * Grid system
 *@desktop
